@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msit.twitterScore.Entity", "msit.tanalizer.Entity\msit.twitterScore.Entity.csproj", "{0438DF7A-EEE5-42D2-A40B-57463C82A67C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msit.twitterScore.Logic", "msit.tanalyzer.Logic\msit.twitterScore.Logic.csproj", "{9558BA7C-A226-4D7F-8E80-9246F3EC8C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msit.twitterScore.Data", "msit.tanalyzer.Data\msit.twitterScore.Data.csproj", "{68AEDF7C-1A45-4D40-989E-C1063386F6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msit.twitterScore.Cache", "msit.analyzer.Cache\msit.twitterScore.Cache.csproj", "{678B4818-5673-4BB3-ADCB-267B1842F3F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msit.twitterScore.Utils", "msit.analyzer.Utils\msit.twitterScore.Utils.csproj", "{AEF408B9-55AC-40F8-A4B8-4F912D595B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msit.twitterScore.Batch", "msit.tanalizer.Batch\msit.twitterScore.Batch.csproj", "{00A4BE77-74FC-4023-AA7A-3351FA4B9A05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{31417FEA-46EB-453C-86DC-461C6AF458A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{163870DB-4BA4-4507-A7AC-1F0A48AAE2FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{44756368-CEAA-4944-A67D-F083614DFE20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{94BB03F6-D8DC-45BB-A590-693478B37816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msit.twitterScore.Twitter", "msit.tanalyzer.Twitter\msit.twitterScore.Twitter.csproj", "{64358CFC-1577-4C13-B34C-4FDF7E67F988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msit.twitterScore.Web", "msit.twitterScore.Web\msit.twitterScore.Web.csproj", "{94B38A66-B63F-46C5-BED7-D9CB667B7351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msit.twitterScore.MongoProvider", "msit.twitterScore.MongoProvider\msit.twitterScore.MongoProvider.csproj", "{EBE95EF1-EE76-405E-8D58-104E4A4EDA5E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mushroomsoftit.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = msit.analyzer.Cache\\msit.twitterScore.Cache.csproj
+		SccProjectTopLevelParentUniqueName1 = msit.twitterScore.sln
+		SccProjectName1 = msit.analyzer.Cache
+		SccLocalPath1 = msit.analyzer.Cache
+		SccProjectUniqueName2 = msit.analyzer.Utils\\msit.twitterScore.Utils.csproj
+		SccProjectTopLevelParentUniqueName2 = msit.twitterScore.sln
+		SccProjectName2 = msit.analyzer.Utils
+		SccLocalPath2 = msit.analyzer.Utils
+		SccProjectUniqueName3 = msit.tanalizer.Batch\\msit.twitterScore.Batch.csproj
+		SccProjectTopLevelParentUniqueName3 = msit.twitterScore.sln
+		SccProjectName3 = msit.tanalizer.Batch
+		SccLocalPath3 = msit.tanalizer.Batch
+		SccProjectUniqueName4 = msit.tanalizer.Entity\\msit.twitterScore.Entity.csproj
+		SccProjectTopLevelParentUniqueName4 = msit.twitterScore.sln
+		SccProjectName4 = msit.tanalizer.Entity
+		SccLocalPath4 = msit.tanalizer.Entity
+		SccProjectUniqueName5 = msit.tanalyzer.Logic\\msit.twitterScore.Logic.csproj
+		SccProjectTopLevelParentUniqueName5 = msit.twitterScore.sln
+		SccProjectName5 = msit.tanalyzer.Logic
+		SccLocalPath5 = msit.tanalyzer.Logic
+		SccProjectUniqueName6 = msit.tanalyzer.Twitter\\msit.twitterScore.Twitter.csproj
+		SccProjectTopLevelParentUniqueName6 = msit.twitterScore.sln
+		SccProjectName6 = msit.tanalyzer.Twitter
+		SccLocalPath6 = msit.tanalyzer.Twitter
+		SccProjectUniqueName7 = msit.twitterScore.Web\\msit.twitterScore.Web.csproj
+		SccProjectTopLevelParentUniqueName7 = msit.twitterScore.sln
+		SccProjectName7 = msit.twitterScore.Web
+		SccLocalPath7 = msit.twitterScore.Web
+		SccProjectUniqueName8 = msit.tanalyzer.Data\\msit.twitterScore.Data.csproj
+		SccProjectTopLevelParentUniqueName8 = msit.twitterScore.sln
+		SccProjectName8 = msit.tanalyzer.Data
+		SccLocalPath8 = msit.tanalyzer.Data
+		SccProjectUniqueName9 = msit.twitterScore.MongoProvider\\msit.twitterScore.MongoProvider.csproj
+		SccProjectTopLevelParentUniqueName9 = msit.twitterScore.sln
+		SccProjectName9 = msit.twitterScore.MongoProvider
+		SccLocalPath9 = msit.twitterScore.MongoProvider
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0438DF7A-EEE5-42D2-A40B-57463C82A67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0438DF7A-EEE5-42D2-A40B-57463C82A67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0438DF7A-EEE5-42D2-A40B-57463C82A67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0438DF7A-EEE5-42D2-A40B-57463C82A67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9558BA7C-A226-4D7F-8E80-9246F3EC8C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9558BA7C-A226-4D7F-8E80-9246F3EC8C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9558BA7C-A226-4D7F-8E80-9246F3EC8C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9558BA7C-A226-4D7F-8E80-9246F3EC8C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AEDF7C-1A45-4D40-989E-C1063386F6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AEDF7C-1A45-4D40-989E-C1063386F6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AEDF7C-1A45-4D40-989E-C1063386F6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AEDF7C-1A45-4D40-989E-C1063386F6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678B4818-5673-4BB3-ADCB-267B1842F3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678B4818-5673-4BB3-ADCB-267B1842F3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678B4818-5673-4BB3-ADCB-267B1842F3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678B4818-5673-4BB3-ADCB-267B1842F3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF408B9-55AC-40F8-A4B8-4F912D595B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF408B9-55AC-40F8-A4B8-4F912D595B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF408B9-55AC-40F8-A4B8-4F912D595B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF408B9-55AC-40F8-A4B8-4F912D595B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A4BE77-74FC-4023-AA7A-3351FA4B9A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A4BE77-74FC-4023-AA7A-3351FA4B9A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A4BE77-74FC-4023-AA7A-3351FA4B9A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A4BE77-74FC-4023-AA7A-3351FA4B9A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64358CFC-1577-4C13-B34C-4FDF7E67F988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64358CFC-1577-4C13-B34C-4FDF7E67F988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64358CFC-1577-4C13-B34C-4FDF7E67F988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64358CFC-1577-4C13-B34C-4FDF7E67F988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B38A66-B63F-46C5-BED7-D9CB667B7351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B38A66-B63F-46C5-BED7-D9CB667B7351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B38A66-B63F-46C5-BED7-D9CB667B7351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B38A66-B63F-46C5-BED7-D9CB667B7351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE95EF1-EE76-405E-8D58-104E4A4EDA5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE95EF1-EE76-405E-8D58-104E4A4EDA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE95EF1-EE76-405E-8D58-104E4A4EDA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE95EF1-EE76-405E-8D58-104E4A4EDA5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9558BA7C-A226-4D7F-8E80-9246F3EC8C3B} = {31417FEA-46EB-453C-86DC-461C6AF458A3}
+		{68AEDF7C-1A45-4D40-989E-C1063386F6CA} = {31417FEA-46EB-453C-86DC-461C6AF458A3}
+		{678B4818-5673-4BB3-ADCB-267B1842F3F4} = {31417FEA-46EB-453C-86DC-461C6AF458A3}
+		{AEF408B9-55AC-40F8-A4B8-4F912D595B62} = {31417FEA-46EB-453C-86DC-461C6AF458A3}
+		{0438DF7A-EEE5-42D2-A40B-57463C82A67C} = {31417FEA-46EB-453C-86DC-461C6AF458A3}
+		{64358CFC-1577-4C13-B34C-4FDF7E67F988} = {31417FEA-46EB-453C-86DC-461C6AF458A3}
+		{EBE95EF1-EE76-405E-8D58-104E4A4EDA5E} = {31417FEA-46EB-453C-86DC-461C6AF458A3}
+		{94BB03F6-D8DC-45BB-A590-693478B37816} = {163870DB-4BA4-4507-A7AC-1F0A48AAE2FF}
+		{44756368-CEAA-4944-A67D-F083614DFE20} = {163870DB-4BA4-4507-A7AC-1F0A48AAE2FF}
+		{00A4BE77-74FC-4023-AA7A-3351FA4B9A05} = {94BB03F6-D8DC-45BB-A590-693478B37816}
+		{94B38A66-B63F-46C5-BED7-D9CB667B7351} = {44756368-CEAA-4944-A67D-F083614DFE20}
+	EndGlobalSection
+EndGlobal

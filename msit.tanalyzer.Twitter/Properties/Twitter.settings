@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="msit.twitterScore.Twitter" GeneratedClassName="Twitter">
+  <Profiles />
+  <Settings>
+    <Setting Name="CONSUMER_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xZAzBqoImFA8IEiEJtFcli29Z</Value>
+    </Setting>
+    <Setting Name="CONSUMER_SECRET" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MtE6sefA3N3LBZiF1SUstbOosp3Mwpe2IEPsoZ0A3XrHNj3Wcm</Value>
+    </Setting>
+    <Setting Name="ACCESS_TOKEN" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1931910810-4rMRPIYlDiCcmAJDz4FV2NdiEFpVoFaSJ062TYl</Value>
+    </Setting>
+    <Setting Name="ACCESS_TOKEN_SECRET" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">eijpOAtyVVj87Qh8Sryh8i5vUZunNkjEBnWlO20GzRAHZ</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
